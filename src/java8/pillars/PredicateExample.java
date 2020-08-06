@@ -8,7 +8,7 @@ public class PredicateExample {
 		// Predicate --> test ()
 		Predicate <String> test1 = (s) -> s.length() > 5 && s.length() > 10;
 		Predicate <String> test2 = (s) -> s.length() > 10;
-		System.out.println(test1.and(test2).test("Mahesh chary Indrakanti"));
+		System.out.println(test1.and(test2).test("Testing ....."));
 		System.out.println(test1.negate().test("Java Developer"));// Returns Logical Negat
 	}
 
